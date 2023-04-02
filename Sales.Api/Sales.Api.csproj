@@ -25,9 +25,11 @@
 
   <ItemGroup>
     <None Remove="Data\" />
+    <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sales.Shared\Sales.Shared.csproj">
